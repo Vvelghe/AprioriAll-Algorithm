@@ -97,6 +97,8 @@ public class AprioriAll {
 		minSupport=(int)((minsupport/(double)100)*allCS.length);
 
 		load1Sequences();
+		pruneMinSupport(1);
+		
 		load2Sequences();
 		computeSupport(2);
 		pruneMinSupport(2);
