@@ -1,9 +1,0 @@
-.project
-java/bin/**
-.classpath
-.DS_Store
-*.class
-Thumbs.db
-.Spothlight-V100
-.Trashes
-.metadata
